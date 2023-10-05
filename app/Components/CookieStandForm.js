@@ -17,6 +17,7 @@ const CookieStandForm = () => {
       id="location"
       name="location"
    
+      
       className="w-full p-2 mt-1 border border-gray-300 focus:ring-orange-400 focus:border-orange-400"
     />
   </div>
