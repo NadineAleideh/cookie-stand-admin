@@ -4,12 +4,12 @@ const CookieStandForm = () => {
 
 
     return (
-        <div className="w-full bg-orange-200">
+        <div className="w-full bg-orange-200 ">
 
-      <form className="w-3/4 p-3 mx-auto bg-orange-300 text-stone-600">
+      <form className="w-3/4 p-3 mx-auto mt-10 bg-orange-300 m text-stone-600">
         <div className="grid-rows-1 text-2xl font-bold text-center text-stone-600"> <h1>Creat Cookie Stand</h1></div>
   <div className="grid-rows-1">
-    <label htmlFor="location" className="block text-sm text-gray-700 font-small">
+    <label htmlFor="location" className="block text-sm text-gray-700 ">
       Location
     </label>
     <input
