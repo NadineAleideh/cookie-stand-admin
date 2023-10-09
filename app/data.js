@@ -7,3 +7,15 @@ const hours = [
   
   export { hours };
   
+
+  export const mockUser = {
+    username: 'admin',
+    password: 'password',
+  };
+  
+  export const authenticateUser = (username, password) => {
+    return (
+      username === mockUser.username && password === mockUser.password
+    );
+  };
+  
